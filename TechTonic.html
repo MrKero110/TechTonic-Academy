@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTonic</title>
+    <link rel="stylesheet" href="Style/styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#"><h1>TechTonic.</h1></a>
+            <ul class="nav-links" id="navlinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Account/SignUp/sup.html" class="signup-btn" id="sup">Sign Up</a></li>
+                <li><a href="Account/LogIn/sin.html" class="signin-btn" id="sin">Sign In</a></li>
+            </ul>
+            <img src="Images/Mo Ashraf.jpg" id="u-i" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="Images/Mo Ashraf.jpg">
+                        <h3>Mohamad Ashraf</h3>
+                    </div>
+                    <hr>
+
+                    <a href="Account/Profile/Profile.html" class="sub-menu-links">
+                        <ion-icon name="person-sharp"></ion-icon>
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-links">
+                        <ion-icon name="settings-sharp"></ion-icon>
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-links">
+                        <ion-icon name="help-circle-sharp"></ion-icon>
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-links">
+                        <ion-icon name="log-out-sharp"></ion-icon>
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Unlock Your Tech Future</h2>
+            <p>Your one-stop platform for learning tech skills from the best in the industry.</p><br>
+            <a href="#courses" class="cta-btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h1>Our Courses</h1>
+            <div class="row">
+                <div class="course">
+                    <a href="">
+                        <ion-icon  name="code-slash"></ion-icon>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+                <div class="course">
+                    <a href="">
+                        <ion-icon name="laptop-outline"></ion-icon>
+                        <h2>Ai Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+                <div class="course">
+                    <a href="">
+                        <ion-icon name="game-controller"></ion-icon>
+                        <h2>Game Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+                <div class="course">
+                    <a href="">
+                        <ion-icon name="bar-chart"></ion-icon>
+                        <h2>Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+                <div class="course">
+                    <a href="">
+                        <ion-icon name="brush"></ion-icon>
+                        <h2>Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+                <div class="course">
+                    <a href="">
+                        <ion-icon name="lock-closed"></ion-icon>
+                        <h2>Cyber Security</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, corporis.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <!-- Mentors Section -->
+    <section id="mentors" class="mentors-section">
+        <h2>Meet Our Mentors</h2>
+        <div class="mentor-profiles">
+            <div class="mentor-profile">
+                <a href="Account/Mentors/Mohamad.html"><img src="https://www.dropbox.com/scl/fi/8u9wgf7g0pwpt0vkeov7t/Mo-Ashraf.jpg?rlkey=6lhdr80acok1ynzq2940ussgx&st=jjj1qke9&raw=1" alt="Mentor Mohammed Ashraf"></a>
+                <h3>Mohammed Ashraf</h3>
+                <p>Senior Web Developer</p>
+            </div>
+            <div class="mentor-profile">
+                <a href="Account/Mentors/Salma.html"><img src="https://www.dropbox.com/scl/fi/vpkp9h7yvlrv54e45t9yy/Salma-Mo.jpg?rlkey=pbpxbaaxzaf6d5426rg6wppgp&st=e3p6kxzi&raw=1" alt="Mentor Salma Mohammed"></a>
+                <h3>Salma Mohammed</h3>
+                <p>Data Scientist</p>
+            </div>
+            <div class="mentor-profile">
+                <a href="Account/Mentors/Kirellos.html"><img src="https://www.dropbox.com/scl/fi/20127grqys2aloun25qiu/desktop-pecture.jpg?rlkey=ipoh4fixw7h1d7vvchl1t6km6&raw=1" alt="Mentor Kirellos Hossam"></a>
+                <h3>Kirellos Hossam</h3>
+                <p>Deep Learning Specialist</p>
+            </div>
+        </div>
+    </section><br><br>
+
+    <!-- Testimonials Section 
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"TechTonic transformed my career! The courses are easy to follow."</p>
+                <h3>Emma W.</h3>
+                <p>Front-End Developer</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"From zero coding knowledge to landing a job as a data scientist."</p>
+                <h3>Mike P.</h3>
+                <p>Data Scientist</p>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Partners Section 
+    <section id="partners" class="partners-section">
+        <h2>Our Partners</h2>
+        <div class="partner-logos">
+            <img src="partner1.png" alt="Partner 1">
+            <img src="partner2.png" alt="Partner 2">
+            <img src="partner3.png" alt="Partner 3">
+        </div>
+    </section>-->
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We make quality tech education accessible to everyone, empowering learners with the right skills.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section><br><br>
+
+    <!-- Footer Section -->
+    <footer>
+
+        <ul class="List">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <p class="copyright">
+            © TechTonic - Academy | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="Script/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        // Sticky Navigation Script
+        window.onscroll = function() {
+            const navbar = document.getElementById("navbar");
+            const sticky = navbar.offsetTop;
+
+            if (window.pageYOffset > sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        };
+    </script>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
